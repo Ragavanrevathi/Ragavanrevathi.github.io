@@ -19,8 +19,19 @@ nav{
     padding:2% 6%;
     
 }
+
+nav p{
+
+    position: absolute;
+    margin: -25px;
+    margin-left: 35px;
+    color: white;
+    
+
+}
 nav img{
     width: 100px;
+    position: relative;
 }
 .row{
     flex: 1;
