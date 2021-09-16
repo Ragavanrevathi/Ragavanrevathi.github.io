@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+
+.main{
+  background-color: #242582;
+  padding: 5px 5px !important;
+  color: white;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.links a{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.links a:hover{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: 2s;
+}
+    
+  .main-heading {
+    font-family: "Raleway", cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 1.875rem;
+    text-align: center;
+  }
+
+
+  .customer-table {
+    padding: 5px;
+    padding-left: 20%;
+  }
+
+
+  table{
+     margin: auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+  table th, td {
+    border:1px solid !important;
+    width: 10% !important;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    border-collapse: collapse;
+
+  }
+
+
+
+table tbody tr {
+    background-color: white !important;
+    color: #000 !important;
+
+  }
+  
+  th {
+    font-family: "Raleway", cursive;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    border-radius:0px !important ;
+    background-color:#242582 !important ;
+  }
+
+  td {
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    padding: 5px 0 0 0 !important;
+  }
+
+  .text-center{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main-btn{
+    background-color: #242582 !important;
+    border: none !important;
+    padding: 15px;
+    border-radius: 10px;
+    color: white !important;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+
+  .btn-secondary{
+    color: red !important;
+  }
+
+  .footer{
+    background-color: #242582;
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+  }
